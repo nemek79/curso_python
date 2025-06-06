@@ -32,3 +32,8 @@ address: str = "123 Main St, Springfield, USA"
 address = 123  # Esto cambiará el tipo de dato a entero, lo cual no es recomendable si se espera una cadena
 print(type(address))  # Esto imprimirá <class 'int'>, ya que ahora address es un entero
 
+#input
+user_input = input("Por favor, introduce tu nombre: ")
+print("Hola,", user_input)
+
+
