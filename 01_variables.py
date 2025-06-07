@@ -36,4 +36,8 @@ print(type(address))  # Esto imprimirá <class 'int'>, ya que ahora address es u
 user_input = input("Por favor, introduce tu nombre: ")
 print("Hola,", user_input)
 
+# print
+print ("Esto", "es", "una", "prueba", sep=" - ", end="!!!")
+print("Seguimos con otra línea. pero no hay salto de línea")
+
 
